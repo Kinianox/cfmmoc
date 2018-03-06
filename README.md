@@ -73,7 +73,7 @@ Refer to this page, https://github.com/cfmmoc/cfmmoc-dataset-ll, for downloading
 
 Remote resource directory could be configured in bin/resources.cfg file, locate the line starting with 'cURL=http://', change resource directory there (further see troubleshooting for server accessibility).
 
-cfMMOC could also fetch data from https://raw.githubusercontent.com/cfmmoc/cfmmoc-dataset-ll/master/***/*/*/*/* (NOT recommended, ONLY for data connectivity and accessibility), but no real-time performace is guaranteed by using resources from  Internet URLs. Downloading dataset from https://github.com/cfmmoc/cfmmoc-dataset-ll to server on local storage is recommanded.
+cfMMOC could also fetch data from https://raw.githubusercontent.com/cfmmoc/cfmmoc-dataset-ll/master/***/*/*/*/* (NOT recommended, ONLY for testing data connectivity and accessibility), but no real-time performace is guaranteed by using resources via URLs from Internet. Downloading dataset from https://github.com/cfmmoc/cfmmoc-dataset-ll to server on local storage is recommanded.
 
 When data server is configured, change working directory to bin/, run './cfMMOC' command, and select cfMMOC-back sample to run.
 
